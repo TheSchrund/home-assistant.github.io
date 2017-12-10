@@ -45,7 +45,7 @@ Log in as the `pi` account and execute the following commands:
 ```bash
 $ sudo systemctl stop home-assistant@homeassistant.service 
 $ sudo su -s /bin/bash homeassistant
-$ source /srv/homeassistant/bin/activate
+$ source /srv/homeassistant/homeassistant_venv/bin/activate
 $ pip3 install --upgrade homeassistant
 $ exit
 $ sudo systemctl start home-assistant@homeassistant.service
